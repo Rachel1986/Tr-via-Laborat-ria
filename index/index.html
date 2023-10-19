@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Trívia Javascript</title>
+  </head>
+  <body>
+    <div class="welcome-page">
+      <h1>Bem vindo(a) à TRÍVIA!</h1>
+      <div class="input-container">
+        <p>Por favor, digite o seu nome:</p>
+        <input type="text" class="name-input" />
+      </div>
+      <button class="start-button">Começar</button>
+    </div>
+
+    <main style="display: none">
+      <div class="content">
+        <span class="spnQtd"></span>
+        <span class="question"></span>
+        <div class="answers"></div>
+        <button class="next-button">Próxima Pergunta</button>
+      </div>
+
+      <div class="finish">
+        <span class="result"></span>
+        <button class="restart-button">Reiniciar</button>
+      </div>
+    </main>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
